@@ -7,6 +7,12 @@ body {
   background-color: #f0f8ff;
   font-family: Arial;
 }
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: #29d431;
+}
 .menu{
   display: flex;
   justify-content: space-between;
@@ -16,6 +22,8 @@ body {
 }
 nav img{
   height: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 1px #3aeb43;;
 }
 main img{
   padding: 0 20px;
@@ -29,7 +37,6 @@ h1{
   padding: 30px;
 }
  .container{
-  
   width: 100%;
   height: auto;
   display: flex;
@@ -57,6 +64,11 @@ h1{
   align-items: center;
   text-align: center;
   padding: 20px;
+  transition: 0.3s ease; /* Adiciona uma transição suave para o efeito de hover*/
+}
+.card:hover{
+  transform: scale(1.05);
+  
 }
 .card img{
   margin-bottom: 16px;
@@ -74,8 +86,50 @@ h1{
   line-height: 1.5;
 }
 .footer{
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px 0;
+  background-color: #0f350b;
+  margin-top: 100px;
 }
-.footer img{
-  height: 50px;
+a{
+  color:white;
+}
+.img-logo{
+  max-height: 100px;
+}
+.img-icon{
+  height: 30px;
+}
+.card-footer{
+  max-width: 300px;
+  font-size: 17px;
+  padding: 5px;
+}
+.footer-menu{
+  display: flex;
+  flex-direction: column;
+  line-height: 1.7;
+}
+.footer p{
+  letter-spacing: 1px;
+  color: white;
+  padding-bottom: 10px;
+}
+.nome-logo{
+  text-align: center;
+}
+.card-footer h3 {
+  color: white;
+  margin-bottom: 10px;
+}
+.footer-bottom {
+  text-align: center;
+  background-color: #0f350b;
+  padding: 10px 0;
+}
+.footer-bottom p {
+  color: #ccc;
+  font-size: 14px;
 }
