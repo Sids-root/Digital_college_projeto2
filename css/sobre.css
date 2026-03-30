@@ -1,13 +1,161 @@
-body {
-  background-color: #f0f8ff;
-  font-family: Arial;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-nav {
-  background-color: #333;
+
+body{
+  font-family: Arial;
+  background-color: #f0f8ff;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color: #29d431;
+}
+
+/* NAV */
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f350b;
+  padding: 10px 20px;
+}
+
+.menu img{
+  height: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 1px #000000;
+}
+
+.nav-links{
+  display: flex;
+  gap: 30px;
+}
+
+/* HERO */
+.hero-sobre{
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero-sobre h1{
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* SOBRE */
+.sobre-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.sobre-img img{
+  width: 100%;
+  max-width: 500px;
+  border-radius: 20px;
+}
+
+.sobre-text{
+  max-width: 500px;
+}
+
+.sobre-text h2{
+  margin-bottom: 15px;
+}
+
+.sobre-text p{
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+/* CARDS */
+.container-cards{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+.card{
+  max-width: 300px;
+  border-radius: 20px;
+  box-shadow: 0px 8px 20px #2E7D32;
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.card:hover{
+  transform: scale(1.05);
+}
+
+.card h3{
+  color: #2E7D32;
+  margin-bottom: 10px;
+}
+
+/* VALORES */
+.valores{
+  text-align: center;
+}
+
+/* CTA */
+.cta{
+  text-align: center;
+  padding: 50px 20px;
+}
+
+/* FOOTER */
+.footer{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  background-color: #0f350b;
+  flex-wrap: wrap;
+}
+
+.card-footer{
+  max-width: 250px;
+}
+
+.footer p{
+  color: white;
+}
+
+.footer-menu{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer h3{
+  color: white;
+  margin-bottom: 10px;
+}
+
+.img-logo{
+  max-height: 80px;
+}
+
+.footer-bottom{
+  text-align: center;
+  background-color: #0f350b;
   padding: 10px;
 }
-nav a {
-  color: white;
-  margin-right: 15px;
-  text-decoration: none;
+
+.footer-bottom p{
+  color: #ccc;
+  font-size: 14px;
 }

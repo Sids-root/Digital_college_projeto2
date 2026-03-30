@@ -20,14 +20,14 @@ a:hover{
   background-color: #0f350b;
   padding: 10px;
 }
-nav img{
+.menu-links{
+  display: flex;
+  gap: 30px;
+}
+.menu img{
   height: 50px;
   border-radius: 10px;
-  box-shadow: 0px 0px 5px 1px #3aeb43;;
-}
-main img{
-  padding: 0 20px;
-  border-radius: 30px;
+  box-shadow: 0px 0px 5px 1px #000000;
 }
 nav a {
   color: white;
@@ -36,17 +36,30 @@ h1{
   text-align: center;
   padding: 30px;
 }
- .container{
-  width: 100%;
-  height: auto;
+.hero {
   display: flex;
- }
-.text-main{
-  margin-right: 10px;
-  align-self: center;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+}
+.hero-img img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 20px;
+}
+.hero-text {
+  max-width: 500px;
+}
+.hero-text h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
 }
 
+.hero-text p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
 .container-cards{
   width: 100%;
   display: flex;
